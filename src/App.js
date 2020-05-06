@@ -20,7 +20,7 @@ class App extends React.Component {
         <h1>Covid Update Report </h1>
         <Cards data={data} />
         <CountryPicker />
-        {/* <Chart /> */}
+        <Chart />
       </div>
 
     )
