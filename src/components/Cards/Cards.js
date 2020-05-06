@@ -6,7 +6,7 @@ import CountUp from 'react-countup'
 
 
 const Cards = ({ data: { confirmed, recovered, lastUpdate, deaths } }) => {
-    console.log(confirmed, recovered, lastUpdate, deaths)
+    // console.log(confirmed, recovered, lastUpdate, deaths)
     if (!confirmed) {
         return 'loading'
     }

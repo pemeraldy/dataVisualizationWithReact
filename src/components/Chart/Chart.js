@@ -1,11 +1,25 @@
-import React from 'react'
+// import React, { useState, useEffect } from 'react'
 
-const Chart = () => {
-    return (
-        <div>
-            <h2>Charts</h2>
-        </div>
-    )
-}
+// import { fetchDailyData, fetchData } from '../../api'
 
-export default Chart
+
+// const Chart = () => {
+//     const [dailyData, setDailyData] = useState([])
+
+//     useEffect(() => {
+//         const fetchAPI = async () => {
+//             const data = await fetchDailyData()
+//             setDailyData(data)
+//             console.log(dailyData)
+//         }
+
+//         fetchAPI()
+//     }, [])
+//     return (
+//         <div>
+//             <h2>Charts</h2>
+//         </div>
+//     )
+// }
+
+// export default Chart
